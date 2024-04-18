@@ -1,0 +1,132 @@
+[
+  {
+    "title": "producto prueba1",
+    "description": "Este es un producto de prueba",
+    "price": 955.99,
+    "thumbnail": "image1",
+    "code": "xyz789",
+    "stock": 77,
+    "status": true,
+    "category": "category2"
+  },
+  {
+    "title": "producto prueba 2",
+    "description": "Este es un producto de prueba",
+    "price": 429.35,
+    "thumbnail": "image2",
+    "code": "pqr456",
+    "stock": 158,
+    "status": true,
+    "category": "category1"
+  },
+  {
+    "title": "producto prueba 3",
+    "description": "Este es un producto de prueba",
+    "price": 19.5,
+    "thumbnail": "image3",
+    "code": "lmn123",
+    "stock": 522,
+    "status": true,
+    "category": "category3"
+  },
+  {
+    "title": "producto prueba 4",
+    "description": "Este es un producto de prueba",
+    "price": 297.22,
+    "thumbnail": "image4",
+    "code": "rpt886",
+    "stock": 29,
+    "status": true,
+    "category": "category1"
+  },
+  {
+    "title": "producto prueba 7",
+    "description": "Este es un producto de prueba",
+    "price": 119.29,
+    "thumbnail": "image7",
+    "code": "pqk709",
+    "stock": 40,
+    "status": true,
+    "category": "category2"
+  },
+  {
+    "title": "producto prueba 8",
+    "description": "Este es un producto de prueba",
+    "price": 769.93,
+    "thumbnail": "image8",
+    "code": "lmn111",
+    "stock": 89,
+    "status": true,
+    "category": "category1"
+  },
+  {
+    "title": "producto prueba 9",
+    "description": "Este es un producto de prueba",
+    "price": 939.79,
+    "thumbnail": "image9",
+    "code": "gil789",
+    "stock": 2,
+    "status": true,
+    "category": "category1"
+  },
+  {
+    "title": "producto prueba 10",
+    "description": "Este es un producto de prueba",
+    "price": 289.35,
+    "thumbnail": "image10",
+    "code": "sdc434",
+    "stock": 67,
+    "status": true,
+    "category": "category2"
+  },
+  {
+    "title": "producto prueba 11",
+    "description": "Este es un producto de prueba",
+    "price": 777.77,
+    "thumbnail": "image11",
+    "code": "agg256",
+    "stock": 21,
+    "status": true,
+    "category": "category3"
+  },
+  {
+    "title": "producto de ejemplo 12",
+    "description": "Descripción del producto",
+    "price": 669.99,
+    "thumbnail": "imagen12",
+    "code": "ABC823",
+    "stock": 50,
+    "status": true,
+    "category": "category3"
+  },
+  {
+    "title": "producto prueba 13",
+    "description": "Este es un producto de prueba",
+    "price": 891.58,
+    "thumbnail": "image14",
+    "code": "uuu399",
+    "stock": 8,
+    "status": false,
+    "category": "category1"
+  },
+  {
+    "title": "producto prueba 14",
+    "description": "Este es un producto de prueba",
+    "price": 891.58,
+    "thumbnail": "image14",
+    "code": "auu399",
+    "stock": 8,
+    "status": false,
+    "category": "category2"
+  },
+  {
+    "title": "producto prueba 15",
+    "description": "Este es un producto de prueba",
+    "price": 111.79,
+    "thumbnail": "image15",
+    "code": "gim719",
+    "stock": 24,
+    "status": false,
+    "category": "category1"
+  }
+]

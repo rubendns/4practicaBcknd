@@ -1,0 +1,68 @@
+<div>
+  <div>
+    <div>
+      <div>
+        {{#if userName}}
+          <h1>Bienvenido {{userName}}</h1>
+          <h2>Permisos: {{userRole}}</h2>
+        {{else}}
+          <h1>Bienvenido Invitado</h1>
+        {{/if}}
+        <a href="/login" class="btn btn-primary">Login</a>
+      </div>
+    </div>
+  </div>
+  <div>
+    {{#each products.docs}}
+      <div>
+        <div>
+          <img src="{{thumbnails}}" alt="Product Image" />
+          <div>
+            <h4>{{title}}</h4>
+            <p>{{description}}</p>
+          </div>
+          <ul>
+            <li class="list-group-item">Code: {{code}}</li>
+            <li class="list-group-item">Price: ${{price}}</li>
+            <li class="list-group-item">Stock: {{stock}}</li>
+            <li class="list-group-item">Category: {{category}}</li>
+          </ul>
+          <div>
+            {{#each thumbnails}}
+              <img
+                src="{{this}}"
+                alt="Thumbnail"
+                width="40"
+                height="40"
+                style="margin-right: 2px;"
+              />
+            {{/each}}
+          </div>
+          <button type="button" class="btn btn-secondary">Add to cart</button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
+<div>
+  <nav>
+    <ul>
+      {{#if products.hasPrevPage}}
+        <li class="page-item"><a
+            class="page-link"
+            href="/products?page={{products.prevPage}}"
+          >Previous</a></li>
+      {{/if}}
+      <li class="page-item"><a
+          class="page-link"
+          href="#"
+        >{{products.page}}</a></li>
+      {{#if products.hasNextPage}}
+        <li class="page-item"><a
+            class="page-link"
+            href="/products?page={{products.nextPage}}"
+          >Next</a></li>
+      {{/if}}
+    </ul>
+  </nav>
+</div>

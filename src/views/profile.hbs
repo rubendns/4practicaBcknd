@@ -1,0 +1,19 @@
+<div>
+  <h1>Your Profile</h1>
+  <div>
+    <label for="name">Name:</label>
+    <p id="name">{{user.name}}</p>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <p id="email">{{user.email}}</p>
+  </div>
+  <div>
+    <label for="role">Role:</label>
+    <p id="role">{{user.role}}</p>
+  </div>
+  <a href="/products" class="btn btn-primary">Go to Products</a>
+  <form action="/api/jwt/logout" method="post">
+    <input type="submit" value="Logout" />
+  </form>
+</div>

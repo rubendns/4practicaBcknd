@@ -1,0 +1,39 @@
+<div >
+  <h3>Cart ID: {{cart._id}}</h3>
+  <div >
+    {{#each cart.products}}
+      <div >
+        <div >
+          <img
+            src="{{this.productId.thumbnails}}"
+            class="card-img-top"
+            alt="Product Image"
+          />
+          <div >
+            <h5 >{{this.productId.title}}</h5>
+            <p >{{this.productId.description}}</p>
+            <ul >
+              <li class="list-group-item">Code: {{this.productId.code}}</li>
+              <li class="list-group-item">Price: ${{this.productId.price}}</li>
+              <li class="list-group-item">Stock: {{this.productId.stock}}</li>
+              <li class="list-group-item">Category:
+                {{this.productId.category}}</li>
+              <li class="list-group-item">Quantity: {{this.quantity}}</li>
+            </ul>
+          </div>
+          <div >
+            {{#each this.productId.thumbnails}}
+              <img
+                src="{{this}}"
+                alt="Thumbnail"
+                width="40"
+                height="40"
+                style="margin-right: 5px;"
+              />
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
